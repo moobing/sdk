@@ -1,0 +1,17 @@
+{
+    "name": "mbing/sdk",
+    "description": "sdk拓展包 包含支付宝支付alipay、OpenSSL加密解密等",
+    "type": "library",
+    "authors": [
+        {
+            "name": "mbing",
+            "email": "gamedevil520@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "mbing\\sdk\\": "src"
+        }
+    }
+}
